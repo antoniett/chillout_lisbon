@@ -1,17 +1,37 @@
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
-    line-height: 120%;
+    line-height: 130%;
+    
+}
+
+.wrapper {
+    margin:0 40px 0 40px;
 }
 
 h1 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 58px;
+    color:#626262;
 }
 
 h2 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 42px;
+    color:#626262;
+
+    
+}
+
+h3 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 24px;
+    color:#626262;
+
+}
+
+p {
+    color:#626262;
 }
 
 .back-img {
@@ -60,12 +80,107 @@ h2 {
     color:#453A94;
     margin: 15px 30px 15px 0;
     border:none;
+ 
 }
 
 .main-button:active {
-   
     background-color: #453A94;
     color:#fff;
    
 }
 
+.small-button {
+    width:188px;
+    height:54px;
+    background-color: #fdb818;
+    color:#453A94;
+    margin: 15px 30px 15px 0;
+    border:none;
+    margin-top:10px;
+    margin-left:145px;
+    
+}
+
+.news-box {
+    width:480px;
+    height:263px;
+    background-color:#fff;
+    margin-top:656px;
+    float:right;
+    margin-top:-80px;
+    margin-right:35px;
+    border: 1px solid #CFCFCF;
+    box-shadow:5px 5px 18px #888888;
+}
+
+.news-box h2 {
+    color:#453A94;
+    text-align:center;
+    padding:15px 0 10px 0;
+}
+
+.news-box hr {
+    color:#CFCFCF;
+}
+
+.date-box {
+    font-size:14px;
+    color:#453A94;
+    font-weight:bold;
+    padding-top:15px;
+    padding-left:15px;
+}
+
+.tours-logos {
+    margin:100px 0 100px 0;
+}
+
+.image-frame {
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.img2 {
+ position: absolute;
+  z-index: 2;
+  top: 80px;
+  left:280px;
+}
+
+.article-title {
+    width:580px;
+    height:269px;
+    border:2px solid #CFCFCF;
+    z-index: auto;
+    left:570px;
+    position:absolute;
+}
+
+.article-title h1 {
+    padding-top:100px;
+    padding-left:120px;
+}
+
+.article-body {
+    width:480px;
+    height:399px;
+    position:absolute;
+    left:700px;
+    top:300px;
+}
+
+.article-body p {
+    padding-bottom:20px;
+}
+
+.beyond-title {
+    width:42px;
+    height:17px;
+    position:absolute;
+    left:120px;
+    top:90px;
+}
