@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
-  line-height: 165%; }
+  line-height: 150%; }
 
 .wrapper {
   margin: 0 40px 0 40px; }
@@ -122,7 +122,8 @@ p {
 .image-frame {
   position: relative;
   height: 700px;
-  margin-top: 80px; }
+  margin-top: 60px;
+  margin-bottom: 20px; }
 
 .img1 {
   position: absolute;
@@ -136,14 +137,14 @@ p {
 
 .img3 {
   position: absolute;
-  right: 330px;
+  right: 290px;
   top: 80px;
   z-index: 2; }
 
 .img4 {
   position: absolute;
   z-index: 1;
-  right: 40px; }
+  right: 0; }
 
 .title1 {
   width: 580px;
@@ -151,15 +152,14 @@ p {
   border: 2px solid #CFCFCF;
   z-index: auto;
   position: absolute;
-  left: 570px; }
+  right: 0; }
 
 .title2 {
   width: 580px;
   height: 269px;
   border: 2px solid #CFCFCF;
   z-index: auto;
-  position: absolute;
-  left: 40px; }
+  position: absolute; }
 
 .title1 h1 {
   padding-top: 100px;
@@ -183,9 +183,14 @@ p {
   width: 480px;
   height: 399px;
   position: absolute;
-  left: 40px;
   top: 300px;
   margin-left: 45px; }
+
+.article3 {
+  width: 480px;
+  height: 399px;
+  position: absolute;
+  top: 300px; }
 
 .article2 h4 {
   font-weight: bold;
@@ -198,27 +203,38 @@ p {
   line-height: 90%; }
 
 .beyond1 {
-  width: 42px;
-  height: 17px;
+  width: auto;
+  height: 26px;
   position: absolute;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 3px solid #fdb818;
   left: 120px;
   top: 90px; }
 
 .beyond2 {
-  width: 42px;
-  height: 17px;
+  width: auto;
+  height: 26px;
   position: absolute;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 3px solid #fdb818;
   left: 25px;
   top: 90px; }
+
+.beyond3 {
+  width: auto;
+  height: 26px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 3px solid #fdb818;
+  margin: 20px 0 0 -38px; }
 
 .center-title {
   text-align: center;
   color: #453A94;
-  padding: 100px 0 70px 0; }
+  padding: 70px 0 70px 0; }
 
 .text-box {
   width: 380px;
@@ -245,5 +261,91 @@ p {
 
 .text-box-middle p {
   color: #453A94; }
+
+.weather-box {
+  width: 1180px;
+  height: 269px;
+  border: 1px solid #CFCFCF;
+  display: inline-block;
+  margin-top: 90px; }
+
+.weather1 {
+  width: 590px;
+  height: 269px;
+  border-right: 1px solid #CFCFCF;
+  display: inline-block; }
+
+.weather2 {
+  width: 575px;
+  height: 269px;
+  display: inline-block;
+  padding-left: 35px; }
+
+.weather-entry {
+  border-right: 2px solid #CFCFCF;
+  padding-right: 40px;
+  padding-bottom: 75px;
+  margin: 100px 0 0px 0px;
+  display: inline-block;
+  width: 150px;
+  height: 64px; }
+
+.weather1:first-child {
+  padding-left: 50px; }
+
+.weather-entry-last {
+  padding-right: 40px;
+  padding-bottom: 75px;
+  margin: 100px 0 0px 0px;
+  display: inline-block;
+  width: 150px;
+  height: 64px; }
+
+.weather-entry h4, .weather-entry-last h4 {
+  font-size: 50px; }
+.weather-entry p, .weather-entry-last p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.weather2 .weather-entry {
+  margin-left: 100px;
+  padding-right: 20px; }
+
+.weather2 .weather-entry p, .weather2 .weather-entry-last p {
+  line-height: 250%;
+  margin-top: -8px; }
+
+.weather2 .weather-entry-last {
+  padding-left: -10px; }
+
+.weather2 h2 {
+  padding-right: 45px; }
+
+.weather-box h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold; }
+
+.list-number {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #fdb818;
+  font-size: 42px; }
+
+.six-steps p {
+  padding-bottom: 25px; }
+
+.google-map-img {
+  padding: 50px 0 35px 0; }
+
+.strelica {
+  width: 30px;
+  margin: 0 auto;
+  padding: 70px 0 0 0; }
+
+.center-button {
+  width: 320px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0; }
 
 /*# sourceMappingURL=lisbon.css.map */
