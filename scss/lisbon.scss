@@ -28,16 +28,11 @@
     border-bottom: 3px solid #fdb818;
 }
 
-@mixin article-left {
-    top: 300px;
-}
-
 @mixin back-image {
     background-position: center center;
     width: 1240px;
     height: 722px;
     margin: auto;
-    
 }
 
 body {
@@ -121,11 +116,11 @@ p {
 .back-img-landing {
     @include back-image;
     background-image: url("bg102.png");
-    }
+}
 
 .back-img-guides {
     @include back-image;
-    background-image:url("bg103.png")
+    background-image: url("bg103.png")
 }
 
 .main-title {
@@ -249,29 +244,27 @@ p {
     z-index: 1;
     right: 0;
 }
-.pages-title { 
-    
+
+.pages-title {
     h1 {
-    color:#FFF;
+        color: #FFF;
     }
-    
     .beyond2 {
-    color:#FFF;
+        color: #FFF;
     }
-    
     .title-left {
-        left:40px;
-        top:220px;
+        left: 40px;
+        top: 220px;
     }
 }
 
 .pages-subtitle p {
-    font-weight:bold;
-    margin-top:560px;
-    margin-left:40px;
-    height:51px;
-    width:590px;
-    color:#fff;
+    font-weight: bold;
+    margin-top: 560px;
+    margin-left: 30px;
+    height: 51px;
+    width: 590px;
+    color: #fff;
 }
 
 .title-right {
@@ -293,17 +286,36 @@ p {
     padding-left: 25px;
 }
 
-.article1 {
+.article-bottom {
+    line-height: 130%;
+    margin-top: -24px;
+    .col-md-7 {
+        padding-left: 10px;
+        padding-top: 44px;
+    }
+    .col-md-5 {
+        padding-left: 5px;
+    }
+}
+
+.article-right {
     @include article-body;
     left: 700px;
     top: 300px;
 }
 
-.article1 p {
-    padding-bottom: 20px;
+.article-right {
+    p {
+        padding-bottom: 20px;
+    }
+    h2 {
+        color: #fdb818;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
 }
 
-.article2 {
+.article-left {
     @include article-body;
     top: 300px;
     margin-left: 45px;
@@ -311,10 +323,10 @@ p {
 
 .article3 {
     @include article-body;
-    @include article-left;
+    top: 300px;
 }
 
-.article2 {
+.article-left {
     h4 {
         font-weight: bold;
         font-size: 20px;

@@ -195,7 +195,7 @@ p {
 .pages-subtitle p {
   font-weight: bold;
   margin-top: 560px;
-  margin-left: 40px;
+  margin-left: 30px;
   height: 51px;
   width: 590px;
   color: #fff; }
@@ -223,17 +223,30 @@ p {
   padding-top: 100px;
   padding-left: 25px; }
 
-.article1 {
+.article-bottom {
+  line-height: 130%;
+  margin-top: -24px; }
+  .article-bottom .col-md-7 {
+    padding-left: 10px;
+    padding-top: 44px; }
+  .article-bottom .col-md-5 {
+    padding-left: 5px; }
+
+.article-right {
   width: 480px;
   height: 399px;
   position: absolute;
   left: 700px;
   top: 300px; }
 
-.article1 p {
+.article-right p {
   padding-bottom: 20px; }
+.article-right h2 {
+  color: #fdb818;
+  font-weight: bold;
+  padding-bottom: 30px; }
 
-.article2 {
+.article-left {
   width: 480px;
   height: 399px;
   position: absolute;
@@ -246,14 +259,14 @@ p {
   position: absolute;
   top: 300px; }
 
-.article2 h4 {
+.article-left h4 {
   font-weight: bold;
   font-size: 20px; }
-.article2 h2 {
+.article-left h2 {
   font-weight: bold;
   color: #453A94;
   padding-bottom: 25px; }
-.article2 p {
+.article-left p {
   line-height: 90%; }
 
 .beyond1 {
