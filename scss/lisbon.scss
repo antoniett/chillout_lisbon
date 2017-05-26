@@ -52,15 +52,18 @@ footer {
         color:#616161;
         padding-right:50px;
     }
+    
   .navbar {
         margin-bottom:0;
     }
+    
   .navbar-nav {
         margin:0 100px 15px 200px;
         padding-left:45px;
         display: table;
         float: none;
     }
+    
     .navbar-default {
       padding-top:50px;
     }
@@ -158,16 +161,13 @@ p {
 .top-button {
     @include main-button;
     width:208px;
-    height:54px;
-   
- 
-}
+    height:54px;  
+ }
 
 .top-button:active {
     background-color: #453A94;
     color:#fff;
-   
-}
+   }
 
 .news-button {
     @include main-button;
@@ -175,6 +175,7 @@ p {
     height:54px;
     margin: 10px 30px 15px 145px;
   }
+
 .tours-button {
     @include main-button;
     width:208px;
@@ -242,13 +243,11 @@ margin-bottom:20px;
   z-index: 2;
 }
 
-.img4 {
+.ig4 {
  position: absolute;
   z-index: 1;
   right:0;
 }
-
-
 
 .title1 {
    @include article-title;
@@ -267,8 +266,6 @@ margin-bottom:20px;
 .title2 h1 {
     padding-top:100px;
     padding-left:25px;
-   
-    
 }
 
 .article1 {
@@ -290,9 +287,7 @@ margin-bottom:20px;
 .article3 {
     @include article-body;
     @include article-left;
-    
-    
-}
+    }
 
 .article2 { 
     
@@ -343,8 +338,7 @@ margin-bottom:20px;
     box-shadow:5px 5px 18px #CFCFCF;
     display:inline-block;
     text-align:center;
-  
-}
+  }
 
 .text-box p {
     margin: 0;
@@ -400,7 +394,6 @@ margin-bottom:20px;
     display:inline-block;
     width:150px;
     height:64px;
-
 }
 
 .weather1:first-child {
@@ -416,7 +409,6 @@ margin-bottom:20px;
     height:64px;
     
 }
-
 
 .weather-entry, .weather-entry-last {
     
