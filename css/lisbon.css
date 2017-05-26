@@ -172,7 +172,7 @@ p {
   top: 80px;
   z-index: 2; }
 
-.ig4 {
+.img4 {
   position: absolute;
   z-index: 1;
   right: 0; }
@@ -332,9 +332,11 @@ p {
   width: 150px;
   height: 64px; }
 
-.weather-entry h4, .weather-entry-last h4 {
+.weather-entry h4,
+.weather-entry-last h4 {
   font-size: 50px; }
-.weather-entry p, .weather-entry-last p {
+.weather-entry p,
+.weather-entry-last p {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center; }
@@ -343,7 +345,8 @@ p {
   margin-left: 100px;
   padding-right: 20px; }
 
-.weather2 .weather-entry p, .weather2 .weather-entry-last p {
+.weather2 .weather-entry p,
+.weather2 .weather-entry-last p {
   line-height: 250%;
   margin-top: -8px; }
 
@@ -390,6 +393,6 @@ p {
   font-weight: bold; }
 
 .social-icons {
-  padding-left: 18px; }
+  padding-left: 20px; }
 
 /*# sourceMappingURL=lisbon.css.map */
