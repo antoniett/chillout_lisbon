@@ -32,6 +32,14 @@
     top: 300px;
 }
 
+@mixin back-image {
+    background-position: center center;
+    width: 1240px;
+    height: 722px;
+    margin: auto;
+    
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
@@ -110,12 +118,14 @@ p {
     color: #626262;
 }
 
-.back-img {
+.back-img-landing {
+    @include back-image;
     background-image: url("bg102.png");
-    background-position: center center;
-    width: 1240px;
-    height: 722px;
-    margin: auto;
+    }
+
+.back-img-guides {
+    @include back-image;
+    background-image:url("bg103.png")
 }
 
 .main-title {
@@ -138,7 +148,7 @@ p {
     border: none;
 }
 
-.back-img ul {
+.header-img ul {
     float: right;
 }
 
@@ -239,22 +249,46 @@ p {
     z-index: 1;
     right: 0;
 }
+.pages-title { 
+    
+    h1 {
+    color:#FFF;
+    }
+    
+    .beyond2 {
+    color:#FFF;
+    }
+    
+    .title-left {
+        left:40px;
+        top:220px;
+    }
+}
 
-.title1 {
+.pages-subtitle p {
+    font-weight:bold;
+    margin-top:560px;
+    margin-left:40px;
+    height:51px;
+    width:590px;
+    color:#fff;
+}
+
+.title-right {
     @include article-title;
     right: 0;
 }
 
-.title2 {
+.title-left {
     @include article-title;
 }
 
-.title1 h1 {
+.title-right h1 {
     padding-top: 100px;
     padding-left: 120px;
 }
 
-.title2 h1 {
+.title-left h1 {
     padding-top: 100px;
     padding-left: 25px;
 }

@@ -59,12 +59,19 @@ h4 {
 p {
   color: #626262; }
 
-.back-img {
-  background-image: url("bg102.png");
+.back-img-landing {
   background-position: center center;
   width: 1240px;
   height: 722px;
-  margin: auto; }
+  margin: auto;
+  background-image: url("bg102.png"); }
+
+.back-img-guides {
+  background-position: center center;
+  width: 1240px;
+  height: 722px;
+  margin: auto;
+  background-image: url("bg103.png"); }
 
 .main-title {
   padding-top: 190px;
@@ -82,7 +89,7 @@ p {
   background: none;
   border: none; }
 
-.back-img ul {
+.header-img ul {
   float: right; }
 
 .navbar-default .navbar-nav > li > a {
@@ -177,7 +184,23 @@ p {
   z-index: 1;
   right: 0; }
 
-.title1 {
+.pages-title h1 {
+  color: #FFF; }
+.pages-title .beyond2 {
+  color: #FFF; }
+.pages-title .title-left {
+  left: 40px;
+  top: 220px; }
+
+.pages-subtitle p {
+  font-weight: bold;
+  margin-top: 560px;
+  margin-left: 40px;
+  height: 51px;
+  width: 590px;
+  color: #fff; }
+
+.title-right {
   width: 580px;
   height: 269px;
   border: 2px solid #CFCFCF;
@@ -185,18 +208,18 @@ p {
   position: absolute;
   right: 0; }
 
-.title2 {
+.title-left {
   width: 580px;
   height: 269px;
   border: 2px solid #CFCFCF;
   z-index: auto;
   position: absolute; }
 
-.title1 h1 {
+.title-right h1 {
   padding-top: 100px;
   padding-left: 120px; }
 
-.title2 h1 {
+.title-left h1 {
   padding-top: 100px;
   padding-left: 25px; }
 
