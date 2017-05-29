@@ -184,6 +184,13 @@ p {
   z-index: 1;
   right: 0; }
 
+.img5 {
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  left: 600px;
+  padding-top: 180px; }
+
 .pages-title h1 {
   color: #FFF; }
 .pages-title .beyond2 {
@@ -450,5 +457,55 @@ p {
 .tours-row .tours-button {
   margin: -30px 0 0 180px;
   z-index: auto; }
+
+.tours-form {
+  width: 780px;
+  height: 873px;
+  box-shadow: 5px 5px 18px #888888;
+  z-index: 1;
+  margin-top: 100px;
+  padding-top: 0;
+  display: inline-block;
+  position: relative; }
+  .tours-form .title-left {
+    border: none;
+    margin-left: 50px; }
+  .tours-form .beyond2 {
+    top: 55px; }
+  .tours-form .title-left h1 {
+    padding-top: 73px; }
+
+.form-box {
+  margin-left: 75px;
+  padding-top: 260px;
+  width: 380px;
+  height: 545px; }
+  .form-box .form-control {
+    height: 54px;
+    font-size: 16px;
+    font-weight: bold; }
+  .form-box label {
+    font-size: 14px;
+    color: #626262; }
+  .form-box .tours-button {
+    margin-top: 30px; }
+
+::-webkit-input-placeholder {
+  font-weight: normal; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: normal; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: normal; }
+
+:-ms-input-placeholder {
+  font-weight: normal; }
+
+.form-img {
+  height: 800px;
+  width: 960px; }
 
 /*# sourceMappingURL=lisbon.css.map */
