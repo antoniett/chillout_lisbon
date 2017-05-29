@@ -52,7 +52,7 @@ footer {
         padding-right: 50px;
     }
     .navbar {
-        margin-bottom: 0;
+        margin-bottom:-15px;
     }
     .navbar-nav {
         margin: 0 100px 15px 200px;
@@ -61,7 +61,7 @@ footer {
         float: none;
     }
     .navbar-default {
-        padding-top: 50px;
+        padding-top: 35px;
     }
     hr {
         border-top: 2px solid #CFCFCF;
@@ -517,4 +517,32 @@ p {
 
 .social-icons {
     padding-left: 20px;
+}
+
+.tours-box {
+    width:580px;
+    height:670px;
+    box-shadow: 5px 5px 18px #888888;
+    margin-top:80px;
+    margin-bottom:-16px;
+    
+    h2 {
+    color: #fdb818;
+    padding:30px 20px 15px 20px;
+    margin: 0;
+    text-align:center;
+    font-weight:bold;
+     }
+    
+    p {
+    padding:20px 15px 0 15px;
+    line-height:140%;
+    }
+    
+    }
+.tours-row {
+    .tours-button {
+        margin:-30px 0 0 180px;
+        z-index:auto;
+    }
 }
